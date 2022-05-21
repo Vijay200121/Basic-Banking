@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Basic Banking</string>
+    <string name="vijay">Vijay Gaike</string>
+    <string name="by">by</string>
+    <string name="basic_banking">Basic Banking</string>
+    <string name="show_all_users">Show all users</string>
+    <string name="all_users">Users</string>
+    <string name="create_transaction">Create Transaction</string>
+    <string name="show_transaction_history">Show Transaction History</string>
+    <string name="history">History</string>
+    <string name="home">Home</string>
+    <string name="balance">Balance</string>
+    <string name="initial_balance">Rs 10000</string>
+    <string name="profile_image">profile image</string>
+    <string name="user_name">User Name</string>
+    <string name="name">Name :-</string>
+    <string name="balance_tag">Balance :-</string>
+    <string name="send_money">Send Money</string>
+    <string name="select_user">Select User</string>
+
+
+    <!-- names -->
+    <string name="vijay_gaike">Vijay Gaike</string>
+    <string name="Nitika_Swamy">Nitika Swamy</string>
+    <string name="Dhiraj_Mutti">Dhiraj Mutti</string>
+    <string name="Rehman_Barad">Rehman Barad</string>
+    <string name="Jasmin_Sengupta">Jasmin Sengupta</string>
+    <string name="Padama_Pillay">Padama Pillay</string>
+    <string name="Drishti_Sankar">Drishti Sankar</string>
+    <string name="Gunjan_Kaur">Gunjan Kaur</string>
+    <string name="Pranay_Som">Pranay Som</string>
+    <string name="Jayshree_Merchant">Jayshree Merchant</string>
+    <!--***********************-->
+
+
+    <string name="to">TO</string>
+    <string name="transaction_icon">transaction icon</string>
+    <string name="enter_amount">Enter Amount (in Rs)</string>
+    <string name="id_1">ID: 1</string>
+    <string name="id_2">ID: 2</string>
+    <string name="id_3">ID: 3</string>
+    <string name="id_4">ID: 4</string>
+    <string name="id_5">ID: 5</string>
+    <string name="id_6">ID: 6</string>
+    <string name="id_7">ID: 7</string>
+    <string name="id_8">ID: 8</string>
+    <string name="id_9">ID: 9</string>
+    <string name="id_10">ID: 10</string>
+
+
+</resources>

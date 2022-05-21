@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_transaction">
+    
+    <ImageView
+        android:id="@+id/trans_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transaction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/transaction_icon"/>
+
+    <TextView
+        android:id="@+id/sender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trans_logo"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/select_user"
+        android:padding="7dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to"
+        android:gravity="center"
+        android:layout_below="@id/sender"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:padding="7dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_user"
+        android:layout_below="@id/to"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"/>
+
+    <EditText
+        android:id="@+id/amount_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/receiver"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/input_style"
+        android:hint="@string/enter_amount"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btnstyle"
+        android:text="@string/send_money"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
